@@ -1,0 +1,40 @@
+/* Solar Power Data Plugin Styles */
+
+/* Style for the settings page */
+.wrap .solarpower-charts {
+    margin-top: 20px;
+}
+
+#solarpower-entities-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#solarpower-entities-table th,
+#solarpower-entities-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#solarpower-entities-table th {
+    background-color: #f9f9f9;
+}
+
+.solarpower-remove-entity {
+    color: #a00;
+}
+
+#solarpower-add-entity {
+    margin-top: 10px;
+}
+
+/* Style for the frontend chart container */
+.solarpower-charts {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.solarpower-charts canvas {
+    width: 100% !important;
+    height: auto !important;
+}

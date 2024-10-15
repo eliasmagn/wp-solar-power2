@@ -1,0 +1,39 @@
+diff --git a/solarpower-data.php b/solarpower-data.php
+index abcdefg..hijklmn 100644
+--- a/solarpower-data.php
++++ b/solarpower-data.php
+@@ -24,6 +24,16 @@ add_action('plugins_loaded', 'solarpower_load_textdomain');
+ 
+ // ... Other code ...
+ 
++// Enqueue frontend styles
++function solarpower_enqueue_frontend_styles() {
++    wp_enqueue_style(
++        'solarpower-data-styles',
++        SOLARPOWER_PLUGIN_URL . 'css/solarpower-data-styles.css',
++        array(),
++        '1.0',
++        'all'
++    );
++}
++add_action('wp_enqueue_scripts', 'solarpower_enqueue_frontend_styles');
++
+ // ... Rest of your existing code ...
+diff --git a/includes/solarpower-data-admin.php b/includes/solarpower-data-admin.php
+index opqrstu..vwxyzab 100644
+--- a/includes/solarpower-data-admin.php
++++ b/includes/solarpower-data-admin.php
+@@ -450,6 +450,12 @@ function solarpower_admin_enqueue_scripts($hook) {
+         '1.0',
+         true
+     );
++
++    // Enqueue admin CSS
++    wp_enqueue_style(
++        'solarpower-data-admin-styles',
++        SOLARPOWER_PLUGIN_URL . 'css/solarpower-data-styles.css',
++        array(), '1.0', 'all'
++    );
+ }
+ 
+ // ... Rest of your existing code ...

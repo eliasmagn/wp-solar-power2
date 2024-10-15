@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Solar Power Data\n"
+"PO-Revision-Date: YYYY-MM-DD HH:MM+0000\n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Solar Power Data"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Settings"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Configure your Home Assistant API settings and manage entities below:"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Home Assistant URL"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Enter the base URL of your Home Assistant instance (e.g., https://your-home-assistant:8123)"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "API Token"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Enter your Home Assistant Long-Lived Access Token."
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Entities Management"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Enable"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Entity ID"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Label"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Unit"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Aggregation"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Actions"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Average"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Sum"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Remove"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Add Entity"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Data Fetch Interval"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Select how often data should be fetched."
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Enable Data Cleanup"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Enable automatic data cleanup"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Data Retention Days"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Number of days to retain data."
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Use External Database"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Use external database for data storage"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "External DB Host"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Example: localhost or 127.0.0.1"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "External DB Name"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Name of the external database."
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "External DB User"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Username for the external database."
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "External DB Password"
+msgstr ""
+
+#: includes/solarpower-data-admin.php:XXX
+msgid "Password for the external database."
+msgstr ""
+
+#: includes/solarpower-data-shortcode.php:XXX
+msgid "No entities specified."
+msgstr ""
+
+#: includes/solarpower-data-shortcode.php:XXX
+msgid "No data available for the selected entities."
+msgstr ""
+
+#: js/solarpower-data-scripts.js:XXX
+msgid "Date"
+msgstr ""
+
+#: js/solarpower-data-scripts.js:XXX
+msgid "Value"
+msgstr ""
+
+#: js/solarpower-data-admin.js:XXX
+msgid "Remove"
+msgstr ""
+
+#: js/solarpower-data-admin.js:XXX
+msgid "Add Entity"
+msgstr ""
+
+#: solarpower-data.php:XXX
+msgid "Every Minute"
+msgstr ""
+
+#: solarpower-data.php:XXX
+msgid "Solar Power Data: API request failed."
+msgstr ""
+
+#: solarpower-data.php:XXX
+msgid "Solar Power Data: API request returned status code"
+msgstr ""
+
+#: solarpower-data.php:XXX
+msgid "Solar Power Data: JSON decode error:"
+msgstr ""
+
